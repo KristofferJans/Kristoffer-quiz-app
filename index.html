@@ -9,23 +9,35 @@
   <body>
     <h1>Kristoffers Quiz App</h1>
 
+    <!--Navigation Bar-->
     <nav class="navbar">
       <a class="navbar-link" href="#">Home</a>
       <a class="navbar-link" href="#">Bookmarks</a>
       <a class="navbar-link" href="#">My Profile</a>
     </nav>
 
+    <!--Main Section-->
     <main class="main-content">
-      <section class="question-card" id="--Question1">
-        <img
-          src="./Icons/bookmark_transparent.png"
-          alt="bookmark_transparent"
-        />
-
-        <p>Welches Wort wurde zum Jugendwort des Jahres 2020 gewählt?</id> </p>
-
-        <button id="show answer">Show answer</button>
-        
+      <!--Card Section-->
+      <section class="question-card" id="--question1">
+        <!--Question-->
+        <p class="question">
+          Welches Wort wurde zum Jugendwort des Jahres 2020 gewählt?
+        </p>
+        <!--Bookmark Button-->
+        <button class="bookmark">
+          <img src="./Icons/bookmark_transparent.png" alt="Bookmark" />
+        </button>
+        <!--Answer Button-->
+        <button class="answer_button">Show answer</button>
+        <!--Card Categories as list-->
+        <ul>
+          <li class="card_answer_categories">#lost</li>
+          <li class="card_answer_categories">#cringe</li>
+          <li class="card_answer_categories">#wild/wyld</li>
+        </ul>
+        <!--Answer (TO DO - HIDE ANSWER UNTIL BUTTON IS CLICKED)-->
+        <p class="answer" id="2020">lost</p>
       </section>
     </main>
   </body>
