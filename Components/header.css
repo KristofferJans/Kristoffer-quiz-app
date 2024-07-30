@@ -1,4 +1,29 @@
+:root {
+  --color-oceanblue: #4144da;
+  --color-skyblue: #0077b6;
+  --color-lightblue: #00b4d8;
+  --color-dolphinblue: #90e0ef;
+  --color-white: #fff;
+  --font: "Bricolage Grotesque", sans-serif;
+  --color-text: var(--color-black);
+}
+
 .header {
-  text-align: center;
+  position: sticky;
+  height: 80px;
   border: solid 2px black;
+  background: var(--color-oceanblue);
+  color: var(--color-text);
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin: 0;
+  font-family: var(--font);
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -0.5;
+  text-align: center;
 }
