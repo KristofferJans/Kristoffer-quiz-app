@@ -13,6 +13,4 @@ main {
   border: solid black;
   border-width: thin;
   overflow: auto;
-  /*display: block;*/
-  /*flex: 1;*/
 }
