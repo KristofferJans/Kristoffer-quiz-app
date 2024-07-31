@@ -4,36 +4,37 @@
   --color-lightblue: #00b4d8;
   --color-dolphinblue: #90e0ef;
   --color-white: #fff;
-  --font: "Bricolage Grotesque", sans-serif;
+  --font: Arial, sans-serif;
   --color-text: var(--color-black);
 }
 
 .question-card {
   position: relative;
-  margin: 20px 10%;
-  padding: 3% 10%;
-  background: var(--color-grey);
-  scroll-margin-top: 100px;
+  background-color: var(--color-lightblue);
+  border: 1px solid black;
   text-align: center;
-  z-index: 0;
+  padding: 20px;
+  font-size: large;
+  margin-bottom: 20px;
 }
 
 .bookmark {
   position: absolute;
-  top: -20px;
+  top: 0px;
   right: 5px;
   border: none;
   cursor: pointer;
   background: none;
-  width: 50px;
+  width: 60px;
+  height: 0px;
 }
 
 .question {
   font-family: var(--font);
   font-weight: 700;
   color: var(--color-black);
-  letter-spacing: 0.2;
-  font-size: 24px;
+  letter-spacing: 0.5;
+  font-size: 20px;
 }
 
 .card_answer_categories {
@@ -46,4 +47,5 @@
   margin-right: 5px;
   color: #d7e1e1;
   font-size: 14px;
+  overflow: auto;
 }

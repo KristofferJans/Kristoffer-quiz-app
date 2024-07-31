@@ -6,17 +6,13 @@
   --color-white: #fff;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0px;
-  padding: 0px;
-  line-height: 2;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  border: solid 2px black;
-  min-height: 100%;
+main {
+  margin: 20px;
+  box-sizing: content-box;
+  padding: 20px;
+  border: solid black;
+  border-width: thin;
+  overflow: auto;
+  display: block;
+  flex: 1;
 }
